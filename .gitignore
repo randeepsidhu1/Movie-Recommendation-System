@@ -1,0 +1,32 @@
+# Ignore virtual environments and all their contents
+env/
+venv/
+
+# Ignore subfolders if they exist at the root
+Tools/
+DLLs/
+Lib/
+Scripts/
+include/
+Library/
+libs/
+conda-meta/
+etc/
+tcl/
+
+# Ignore compiled/system files
+*.dll
+*.exe
+*.pdb
+*.pyc
+__pycache__/
+
+# Ignore dev/editor/temp files
+.ipynb_checkpoints/
+.vscode/
+*.zip
+
+# Ignore build/package artifacts
+*.egg-info/
+build/
+dist/
